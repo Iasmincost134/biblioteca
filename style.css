@@ -1,0 +1,145 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,700;0,900;1,700&display=swap');
+
+
+
+/* RESET CSS */
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;}
+a{
+    text-decoration: none;}
+img{
+    width: 100%;
+    height: auto;}
+html{
+    scroll-behavior: smooth;}
+
+/* CABEÇALHO & BLOCO 1 */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+.bloco1, .bloco2{
+    /* padding: 100px; */
+    height: 80vh;
+    width: 700px;
+    border-radius: 20px;
+    margin: 30px 10px;
+    justify-content: space-around;
+}
+
+.bloco1{
+    background-color: #EEF2F3;
+}
+.cabecalho{
+    margin: 50px 0;
+}
+
+.titulo-cabecalho{
+    margin: 0 20px;
+    font: 700 20px 'Open Sans', sans-serif;
+    
+}
+.topicos{
+    display: flex;
+    margin: -32px 140px;
+}
+.titulo{
+    margin-top: -6px;
+    font:  300 28px 'Roboto', sans-serif;
+}
+.container-blocos{
+    margin: 0 65px;
+}
+.centro{
+    margin-top: 18vh;
+    display: flex;
+   
+}
+.textCentro{
+    font:  700 48px 'Roboto', sans-serif;
+}
+.imgLivro{
+    width: 70px;
+    /* height: 90px; */
+}
+.seta{
+    display: flex;
+    margin-top: 30px;
+}
+.seta-direita{
+    width: 50px;
+}
+.botao{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 100px;
+}
+.estrelaimg{
+    width: 70px;
+    margin-left: 320px;
+    margin-top: -40px;
+}
+.comentarios{
+    margin-top: 50px;
+}
+
+/* BLOCO 2 */
+.bloco2{
+    background-color: #FFE4C9;
+}
+.imagem{
+    margin-top: 90px;
+}
+
+/* CADASTRO DE LIVROS */
+.infoCadastro{
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px 100px;
+    padding: 80px;
+    background-color: #EEF2F3;
+}
+
+#nomeLivro, #autorLivro, #anoLivro{
+   margin: 40px;
+   border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+}
+.titulo-cadastro{
+    font:  700 48px 'Roboto', sans-serif;
+}
+
+#button1{
+    margin: 0 40px;
+   background-color:#f5e3dc ;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#button1:hover{
+    background-color:#fad1c2 ;
+}
+ .carrossel{
+    width: 390px;
+    background-color:#EEF2F3; ;
+    border-radius: 25px;
+    padding: 40px 100px;
+    margin: -60px 500px;
+}
+#anterior, #proximo{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 6px;
+    margin: 20px 10px;
+}
