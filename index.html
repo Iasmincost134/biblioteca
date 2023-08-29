@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Cultural</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tudo">
+        <div class="container">
+          <div class="bloco1">
+            <div class="container-blocos">
+            <div class="cabecalho"> 
+            <h1 class="titulo">Livraria</h1>
+            <div class="topicos">
+                    <h2 class="titulo-cabecalho">Home</h2>
+                    <h2 class="titulo-cabecalho">Shop</h2>
+                    <h2 class="titulo-cabecalho">Livros</h2>
+                </div>
+                </div>
+                <div class="centro">
+                    <h1 class="textCentro">QUAL LIVRO VOCÊ ESTÁ PROCURANDO?</h1>
+                    <img class="imgLivro" src="pilha-de-livros (1).png" alt="">
+                </div>
+                <div class="comentarios">
+                    <p>Não tem certeza de qual livro ler? Venha conferir o nosso catálogo com os melhores editores</p>
+                </div>
+                <div class="seta">
+                    <button class="botao">Explore agora</button>
+                    <img class="seta-direita" src="seta-direita.png" alt="">
+                </div>
+            </div>
+          </div>
+          <div class="bloco2">
+            <div class="imagem">
+            <img src="ef4f9c36-1ad8-4f12-83e3-f68b9bd59eaa.png" alt="">
+         </div>
+        </div>
+          
+        </div>
+    </div>
+    <div class="infoCadastro">
+    <!-- <div class="container"> -->
+    <h1 class="titulo-cadastro">Cadastro de livros</h1>
+    <div class="inputs">
+    <input type="text" id="nomeLivro" placeholder="Nome">
+    <input type="text" id="autorLivro" placeholder="Autor">
+    <input type="number" id="anoLivro" placeholder="Ano">
+    </div>
+    <div class="botoes">
+    <button id="button1" onclick="adicionar()">Adicionar Livros</button>
+    <button id="button1" onclick="mostrarLivros()">Mostrar</button>
+    <button id="button1" onclick="apagar()">Apagar Registro</button>
+    </div>
+    <p id="mensagem"></p>
+</div>
+</div>
+    <div class="carrossel">
+        <div><img src="" alt="Imagem do Carrossel" id="carrosselImagem"></div>
+        <button id="anterior">Anterior</button>
+        <button id="proximo">Próxima</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
